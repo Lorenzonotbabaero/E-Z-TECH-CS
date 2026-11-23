@@ -1,0 +1,35 @@
+:root{--navy:#0F2A47;--blue:#0F6BB0;--blue-dark:#0B5590;--tint:#F1F6FB;--ink:#1B2733;--muted:#4A5B6C;--line:#D3DEE9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--tint);color:var(--ink);font:400 17px/1.6 "Source Sans 3",system-ui,sans-serif}
+a{color:#fff}
+:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.w{max-width:760px;margin:0 auto;padding:0 20px}
+.bar{background:var(--navy);color:#fff;padding:14px 0}
+.bar .w{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.bar b{font:700 20px "Source Serif 4",Georgia,serif}
+.panel{background:#fff;border:1px solid var(--line);border-top:4px solid var(--blue);padding:26px;margin:24px 0;display:grid;gap:16px}
+.panel[hidden]{display:none}
+h1{margin:0;font:700 26px "Source Serif 4",Georgia,serif;color:var(--navy)}
+.hint{margin:0;color:var(--muted)}
+label{display:grid;gap:6px;font-weight:600}
+input{font:inherit;font-weight:400;padding:11px 13px;border:1px solid #8CA3BA;border-radius:3px;min-height:46px;width:100%}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.btn{font:600 16px "Source Sans 3",sans-serif;background:var(--blue);color:#fff;border:2px solid var(--blue);border-radius:3px;padding:11px 22px;cursor:pointer;min-height:46px}
+.btn:hover{background:var(--blue-dark);border-color:var(--blue-dark)}
+.btn.ghost{background:#fff;color:var(--blue)}
+.btn.ghost:hover{background:var(--tint)}
+.btn:disabled{opacity:.6;cursor:wait}
+details{color:var(--muted)}summary{cursor:pointer;font-weight:600;color:var(--blue)}
+details ol{margin:10px 0 0;padding-left:22px}
+.tech{display:grid;grid-template-columns:120px 1fr;gap:20px;padding:20px 0;border-top:1px solid var(--line);align-items:start}
+.tech:first-child{border-top:0;padding-top:0}
+.tech .pic{display:grid;gap:10px;justify-items:center}
+.tech img{width:110px;height:110px;border-radius:50%;object-fit:cover;background:var(--tint);border:3px solid #fff;box-shadow:0 0 0 2px var(--blue)}
+.tech .fields{display:grid;gap:12px}
+.file{font-size:14px;font-weight:600;color:var(--blue);cursor:pointer;text-align:center}
+.file input{position:absolute;opacity:0;width:1px;height:1px;min-height:0}
+.file:focus-within{outline:3px solid var(--blue);outline-offset:2px}
+.remove{justify-self:start;background:none;border:0;color:#B00020;font:600 15px "Source Sans 3",sans-serif;cursor:pointer;padding:6px 0}
+.msg{min-height:1.6em;font-weight:600;margin:0 0 40px}
+.msg.ok{color:#0F6B3A}.msg.err{color:#B00020}
+@media(max-width:560px){.tech{grid-template-columns:1fr}}
