@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>E-Z TECH CS | Computer Repair Services</title>
+<meta name="description" content="E-Z TECH CS (AzureZone Computer Services): reliable, affordable computer repair, troubleshooting, maintenance and hardware or software help.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--ground:#EAF4FB;--paper:#FFFFFF;--ink:#0C2B3F;--muted:#42606F;--azure:#0A74B9;--deep:#06456F;--signal:#E8590C;--line:#B9D5E6}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--ground);color:var(--ink);font:400 17px/1.6 "Public Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque","Public Sans",sans-serif;line-height:1.1;margin:0}
+a{color:var(--azure)}
+:focus-visible{outline:3px solid var(--signal);outline-offset:3px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+header{background:var(--paper);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:68px;flex-wrap:wrap}
+.brand{font:800 22px "Bricolage Grotesque",sans-serif;color:var(--deep);text-decoration:none}
+.brand small{display:block;font:600 12px "Public Sans",sans-serif;color:var(--muted)}
+nav{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+nav a{color:var(--ink);text-decoration:none;font-weight:600;font-size:15px;padding:10px 2px}
+nav a:hover{color:var(--azure)}
+.btn{display:inline-block;background:var(--signal);color:#fff;font-weight:600;text-decoration:none;padding:14px 24px;border-radius:8px;border:0;font-size:16px;cursor:pointer;min-height:48px}
+.btn:hover{background:#C94A06}
+nav a.btn{color:#fff;padding:12px 20px}
+.hero{padding:72px 0 64px}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+h1{font-size:clamp(40px,6vw,72px);font-weight:800;color:var(--deep);letter-spacing:-.02em}
+.hero p{font-size:19px;color:var(--muted);max-width:52ch;margin:20px 0 28px}
+.ticket{background:var(--paper);border:2px solid var(--deep);border-radius:12px;padding:24px;box-shadow:8px 8px 0 var(--azure)}
+.ticket h2{font-size:20px;margin-bottom:14px}
+.ticket ul{list-style:none;margin:0;padding:0}
+.ticket li{display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-top:1px dashed var(--line);font-size:16px}
+.ticket li b{color:var(--azure)}
+section{padding:64px 0}
+h2.title{font-size:clamp(30px,4vw,44px);color:var(--deep);margin-bottom:12px}
+.lead{color:var(--muted);max-width:60ch;margin:0 0 36px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.svc{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:24px}
+.svc h3{font-size:22px;margin-bottom:8px;color:var(--ink)}
+.svc p{margin:0;color:var(--muted);font-size:16px}
+.band{background:var(--deep);color:#fff}
+.band h2.title{color:#fff}.band .lead{color:#CFE6F5}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;counter-reset:s;list-style:none;margin:0;padding:0}
+.steps li{counter-increment:s;border-top:3px solid var(--signal);padding-top:14px}
+.steps li::before{content:counter(s);font:800 32px "Bricolage Grotesque",sans-serif;color:var(--signal);display:block}
+.steps b{display:block;font-size:19px;margin-bottom:4px}
+.steps span{color:#CFE6F5;font-size:16px}
+.contact{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px}
+.details p{margin:0 0 10px}
+form{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:24px;display:grid;gap:16px}
+label{display:grid;gap:6px;font-weight:600;font-size:15px}
+input,textarea,select{font:inherit;padding:12px;border:1px solid #8FB3C9;border-radius:6px;background:#fff;color:var(--ink);min-height:48px}
+textarea{min-height:120px}
+footer{padding:28px 0;border-top:1px solid var(--line);color:var(--muted);font-size:15px}
+@media(max-width:860px){.hero .wrap,.contact{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.grid,.steps{grid-template-columns:1fr}nav{gap:12px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap">
+<a class="brand" href="#top">E-Z TECH CS<small>AzureZone Computer Services</small></a>
+<nav aria-label="Main">
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#how">How it works</a>
+<a href="#contact" class="btn">Request help</a>
+</nav>
+</div>
+</header>
+
+<main id="top">
+<div class="hero">
+<div class="wrap">
+<div>
+<h1>Your Tech, Our Priority.</h1>
+<p>We&rsquo;re new to the computer repair industry, but we&rsquo;re committed to providing reliable service, affordable solutions, and quality customer support.</p>
+<a class="btn" href="#contact">Request help</a>
+</div>
+<aside class="ticket" aria-label="Common problems we fix">
+<h2>What can we fix today?</h2>
+<ul>
+<li><span>Slow or freezing computer</span><b>Tune-up</b></li>
+<li><span>Pop-ups, virus warnings</span><b>Malware removal</b></li>
+<li><span>Files gone or drive failing</span><b>Data recovery</b></li>
+<li><span>Program won&rsquo;t install or open</span><b>Software help</b></li>
+<li><span>Brand-new computer</span><b>Setup</b></li>
+</ul>
+</aside>
+</div>
+</div>
+
+<section id="about">
+<div class="wrap">
+<h2 class="title">About E-Z TECH CS</h2>
+<p class="lead">From basic troubleshooting to computer maintenance and hardware or software assistance, we&rsquo;re here to help you with your tech needs.</p>
+<p class="lead">Your support means a lot as we grow and improve our services!</p>
+</div>
+</section>
+
+<section id="services">
+<div class="wrap">
+<h2 class="title">Services</h2>
+<p class="lead">Pick what matches your problem. If you are not sure, describe it and we will tell you what it needs.</p>
+<div class="grid">
+<div class="svc"><h3>Basic troubleshooting</h3><p>Slow, freezing or misbehaving computers: we find the cause and fix it.</p></div>
+<div class="svc"><h3>Computer maintenance</h3><p>Cleanups, updates and checkups that keep your computer running smoothly.</p></div>
+<div class="svc"><h3>Hardware assistance</h3><p>Repairs and upgrades for desktops and laptops, from screens to storage and memory.</p></div>
+<div class="svc"><h3>Software assistance</h3><p>Installing, updating and fixing the programs and operating system you rely on.</p></div>
+<div class="svc"><h3>Virus and malware removal</h3><p>Clean out infections and secure your computer so you can use it with confidence.</p></div>
+<div class="svc"><h3>New computer setup</h3><p>Transfer your files and settings and install your programs so you can start right away.</p></div>
+</div>
+</div>
+</section>
+
+<section id="how" class="band">
+<div class="wrap">
+<h2 class="title">How it works</h2>
+<p class="lead">No jargon and no surprise bills.</p>
+<ol class="steps">
+<li><b>Tell us the problem</b><span>Use the form or call us.</span></li>
+<li><b>We diagnose it</b><span>You get a clear explanation and a price.</span></li>
+<li><b>You approve</b><span>We start only after you say yes.</span></li>
+<li><b>We fix and explain</b><span>Your computer comes back working, with tips to keep it that way.</span></li>
+</ol>
+</div>
+</section>
+
+<section id="contact">
+<div class="wrap contact">
+<div class="details">
+<h2 class="title">Request help</h2>
+<p class="lead">Send us a message and we will reply with next steps.</p>
+<p><b>Phone:</b> <a href="tel:+639489635044">0948 963 5044</a></p>
+<p><b>Email:</b> <a href="mailto:eztechcsbinanbranch@gmail.com">eztechcsbinanbranch@gmail.com</a></p>
+<p><b>Hours:</b> 3:00 PM to 10:00 PM</p>
+<p><b>Location:</b> Biñan City</p>
+</div>
+<form id="f">
+<label>Your name<input name="name" required autocomplete="name"></label>
+<label>Phone or email<input name="contact" required></label>
+<label>What do you need?
+<select name="service">
+<option>Basic troubleshooting</option><option>Computer maintenance</option><option>Hardware assistance</option><option>Software assistance</option><option>Virus and malware removal</option><option>New computer setup</option><option>Not sure</option>
+</select></label>
+<label>Describe the problem<textarea name="msg" required></textarea></label>
+<button class="btn" type="submit">Send request</button>
+</form>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="wrap"><b>E-Z TECH CS: Your Tech, Our Priority.</b><br>&copy; <span id="y"></span> E-Z TECH CS, AzureZone Computer Services. All rights reserved.</div>
+</footer>
+
+<script>
+document.getElementById('y').textContent=new Date().getFullYear();
+var TO='eztechcsbinanbranch@gmail.com';
+document.getElementById('f').addEventListener('submit',function(e){
+e.preventDefault();var d=new FormData(e.target);
+var body='Name: '+d.get('name')+'\nContact: '+d.get('contact')+'\nService: '+d.get('service')+'\n\n'+d.get('msg');
+location.href='mailto:'+TO+'?subject='+encodeURIComponent('Service request: '+d.get('service'))+'&body='+encodeURIComponent(body);
+});
+</script>
+</body>
+</html>
